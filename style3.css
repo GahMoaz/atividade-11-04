@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    width: 100%;
+}
+
+
+.logo {
+    height: 99vh;
+    width: 90vh;
+   
+}
+
+.total{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+h1{
+    color: rgb(9, 30, 49);
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.lado2{
+    background-color: rgb(211, 211, 211);
+height: 99vh;
+width: 99vh;
+    
+}
+
+input[type=text]{
+    height: 35px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgb(9, 30, 49) ;
+    outline: none;
+    border-radius: 10px;
+}
+
+button[type=submit]{
+    background-color: rgb(8, 15, 117);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 140px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 2, 139) ;
+    outline: none;
+    margin-left: 240px;
+    border-radius: 30px;
+
+}
+
+.q1{
+    margin-left: 250px;
+}
+
+
+
+input[type=password]{
+    height: 35px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgb(9, 30, 49) ;
+    outline: none;
+    border-radius: 10px;
+}
+.caixa1{
+    margin-top: 100px;
+   margin-left: 210px;
+    flex-direction: column;
+}
